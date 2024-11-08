@@ -7,3 +7,6 @@ Instructions:
 2. `cd ShortestPathAlgorithms`
 3. `javac Algorithms/*.java`
 4. `java Algorithms.Main`
+
+- Main.java calls MinimumSpanningTree.java,  ShortestPathAlgorithm.java , TopologicalSort.java and inputfiles based on the option we give
+-	Each algorithm is run on four different graphs. The input is in the form of the text file and these files can be found in the “Inputfiles” in the project file.
