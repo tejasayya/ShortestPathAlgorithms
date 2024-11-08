@@ -1,0 +1,27 @@
+15 25 D
+A B
+A C
+B D
+B E
+C F
+C G
+D H
+E I
+F J
+G K
+H L
+I M
+J N
+K O
+L A
+M B
+N C
+O D
+E F
+G H
+I J
+K L
+M N
+N O
+E O
+A
