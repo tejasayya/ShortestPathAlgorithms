@@ -12,8 +12,8 @@ public class Main {
         int selectedFile;
 
         System.out.println("Choose an Algorithm:\n" +
-                "1. Dijkstra's Algorithm (Shortest Path)\n" +
-                "2. Kruskal's Algorithm (Minimum Spanning Tree)\n" +
+                "1. Single-source Shortest Path (Dijkstra's Algorithm)\n" +
+                "2. Minimum Spanning Tree (Kruskal's Algorithm)\n" +
                 "3. Topological Sorting (Cycle detection and topological order)");
 
         int choice = Integer.parseInt(scanner.nextLine());
