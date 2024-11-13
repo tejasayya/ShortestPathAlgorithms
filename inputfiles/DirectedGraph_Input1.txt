@@ -24,7 +24,7 @@ M O 2
 N O 4
 N P 3
 O P 1
-A F 5    
+A F 5
 B H 4
 C K 3
 A

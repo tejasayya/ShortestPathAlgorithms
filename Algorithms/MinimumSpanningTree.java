@@ -124,7 +124,7 @@ public class MinimumSpanningTree {
         
         for (int i = 0; i < mstEdgeCount; ++i) {
             System.out.println(nodeLabels.charAt(mstEdgeList[i].src) + " --> " +
-                    nodeLabels.charAt(mstEdgeList[i].dest) + " Cost: " + mstEdgeList[i].cost);
+                    nodeLabels.charAt(mstEdgeList[i].dest) + " Path Cost: " + mstEdgeList[i].cost);
             totalMSTCost += mstEdgeList[i].cost;
         }
         

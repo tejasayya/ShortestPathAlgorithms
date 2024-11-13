@@ -63,6 +63,7 @@ public class TopologicalSort {
                 System.out.println("The graph contains cycles.");
                 System.out.println("Detected cycles with their lengths:");
                 int cycleCount = 1;
+                long startTime = System.nanoTime();
                 for (List<Character> cycle : detectedCycles) {
                     System.out.print("Cycle " + cycleCount + ": ");
                     for (int i = 0; i < cycle.size(); i++) {
@@ -74,6 +75,8 @@ public class TopologicalSort {
                     System.out.println(" (Length: " + cycle.size() + ")");
                     cycleCount++;
                 }
+                long endTime = System.nanoTime();
+                System.out.println("Execution Time: " + (endTime - startTime) + " nanoseconds");
             }
         } catch (FileNotFoundException e) {
             System.out.println("File not found: " + filePath);

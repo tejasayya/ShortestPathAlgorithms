@@ -102,7 +102,7 @@ public class ShortestPathAlgorithm {
                     System.out.println(alphabet.charAt(startNode) + " --> " + alphabet.charAt(i) + " Path cost: Unreachable");
                 } else {
                     String path = buildPath(i);
-                    System.out.println(alphabet.charAt(startNode) + path + " Path cost: " + minDistances[i]);
+                    System.out.println(path + " Path cost: " + minDistances[i]);
                 }
             }
         }
