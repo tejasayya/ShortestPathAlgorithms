@@ -1,27 +1,30 @@
-15 25 D
-A B
-A C
-B D
-B E
-C F
-C G
-D H
-E I
-F J
-G K
-H L
-I M
-J N
-K O
-L A
-M B
-N C
-O D
-E F
-G H
-I J
-K L
-M N
-N O
-E O
-A
+18 28 D
+A B 3 
+A C 2 
+B D 4 
+B E 1 
+C F 5 
+C G 3 
+D H 2 
+E I 6 
+F J 4 
+G K 1 
+H L 3 
+I M 2 
+J N 5 
+K O 4 
+L A 1 
+M B 6 
+N C 3 
+O D 2 
+E F 5 
+G H 1 
+I J 4 
+P E 2 
+Q K 3 
+R N 4 
+A P 2 
+B Q 5 
+C R 6 
+M O 3
+N
